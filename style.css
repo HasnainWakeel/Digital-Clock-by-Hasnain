@@ -1,0 +1,216 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    border: 5px double rgba(0, 0, 105, 0.648);
+    box-shadow: 1px 1px 15px red;
+    width: 50%;
+    height: 35%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+}
+.date{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 35%;
+    padding-top: 10%;
+    
+}
+
+#hours{
+    font-size: 22px;
+}
+#mins{
+    font-size: 22px;
+}
+#secs{
+    font-size: 22px;
+}
+
+#text{
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+
+
+@media screen and (min-width:315px) and ( max-width:435px) {
+    .parent{
+        width: 100%;
+        align-items: center;
+    }
+
+    .heading h3{
+        text-align: center;
+        font-size: large;
+    }
+
+    .creator h1{
+        text-align: center;
+        font-size: medium;
+    }
+    
+    .main{
+        padding-top: 40%;
+    }
+}
+
+@media screen and (min-width:436px) and ( max-width:770px) {
+    .parent{
+        width: 100%;
+        align-items: center;
+    }
+
+    .heading h3{
+        text-align: center;
+        font-size: larger;
+    }
+
+    .creator h1{
+        text-align: center;
+        font-size: large;
+    }
+    
+    .main{
+        padding-top: 15%;
+    }
+}
+
+@media screen and (min-width:775px) and ( max-width:1025px) {
+    .parent{
+        width: 100%;
+        align-items: center;
+    }
+
+    .heading h3{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .creator h1{
+        text-align: center;
+        font-size: 27px;
+    }
+    
+    .main{
+        padding-top: 15%;
+    }
+
+    .time #hours{
+        font-size: 27px;
+    }
+
+    .time #mins{
+        font-size: 27px;
+    }
+
+    .time #secs{
+        font-size: 27px;
+    }
+
+    .date #date{
+        font-size: 20px;
+    }
+    
+    .date #month{
+        font-size: 20px;
+    }
+    
+    .date #year{
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width:1440px) and ( max-width:2565px) {
+    .parent{
+        width: 50%;
+        height: 25%;
+        align-items: center;
+    }
+
+    .heading h3{
+        text-align: center;
+        font-size: 55px;
+    }
+
+    .creator h1{
+        text-align: center;
+        font-size: 42px;
+    }
+    
+    .main{
+        padding-top: 15%;
+    }
+
+    .time #hours{
+        font-size: 43px;
+    }
+
+    .time #mins{
+        font-size: 43px;
+    }
+
+    .time #secs{
+        font-size: 43px;
+    }
+
+    .date #date{
+        font-size: 36px;
+    }
+    
+    .date #month{
+        font-size: 36px;
+    }
+    
+    .date #year{
+        font-size: 36px;
+    }
+
+    .date{
+        padding: 10px;
+    }
+
+}
+
+
+
